@@ -146,7 +146,7 @@ public class Main {
         
         JLabel lblIdAdmina = new JLabel("ID Admina:");
         lblIdAdmina.setForeground(Color.WHITE);
-        lblIdAdmina.setFont(new Font("Times New Roman", Font.BOLD, 13));
+        lblIdAdmina.setFont(new Font("Arial", Font.BOLD, 13));
         lblIdAdmina.setBounds(21, 28, 86, 14);
         panel_1.add(lblIdAdmina);
         
@@ -167,12 +167,12 @@ public class Main {
         panel_1.add(btnPrijavaAdmina);
         
         JLabel lblNewLabel_2_1 = new JLabel("Nemas racun? Registriraj se :)...");
-        lblNewLabel_2_1.setFont(new Font("Times New Roman", Font.PLAIN, 16));
+        lblNewLabel_2_1.setFont(new Font("Arial", Font.PLAIN, 72));
         lblNewLabel_2_1.setBounds(376, 310, 213, 20);
         frame.getContentPane().add(lblNewLabel_2_1);
         
         JLabel lblNewLabel_2_2 = new JLabel("Prijavite se kao admin:");
-        lblNewLabel_2_2.setFont(new Font("Times New Roman", Font.PLAIN, 16));
+        lblNewLabel_2_2.setFont(new Font("Arial", Font.PLAIN, 16));
         lblNewLabel_2_2.setBounds(698, 68, 171, 14);
         frame.getContentPane().add(lblNewLabel_2_2);
         
