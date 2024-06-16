@@ -35,7 +35,7 @@ public class Main {
             stmt.setString(1, ID_Admina);
             ResultSet rs = stmt.executeQuery();
             if (rs.next()) {
-            	DlgMainAdmin dlg = new DlgMainAdmin();
+                DlgMainAdmin dlg = new DlgMainAdmin();
                 dlg.setVisible(true);
                 frame.dispose();
             } else {
@@ -84,8 +84,7 @@ public class Main {
      */
     private void initialize() {
         frame = new JFrame();
-        frame.getContentPane().setEnabled(false);
-        frame.getContentPane().setBackground(new Color(155, 213, 164));
+        frame.getContentPane().setBackground(new Color(128, 0, 128)); // Purple background
         frame.setBounds(100, 100, 958, 443);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setLayout(null);
@@ -101,7 +100,7 @@ public class Main {
         frame.getContentPane().add(lblNewLabel_2);
         
         JPanel panel = new JPanel();
-        panel.setBackground(new Color(40, 98, 49));
+        panel.setBackground(new Color(128, 0, 128)); // Dark purple background
         panel.setBounds(40, 93, 302, 155);
         frame.getContentPane().add(panel);
         panel.setLayout(null);
@@ -141,7 +140,7 @@ public class Main {
         
         JPanel panel_1 = new JPanel();
         panel_1.setLayout(null);
-        panel_1.setBackground(new Color(40, 98, 49));
+        panel_1.setBackground(new Color(128, 0, 128)); // Dark purple background
         panel_1.setBounds(619, 93, 302, 111);
         frame.getContentPane().add(panel_1);
         
@@ -186,7 +185,7 @@ public class Main {
         });
         btnNewButton.setForeground(new Color(255, 255, 255));
         btnNewButton.setFont(new Font("Times New Roman", Font.BOLD, 13));
-        btnNewButton.setBackground(new Color(30, 115, 57));
+        btnNewButton.setBackground(new Color(128, 0, 128)); // Dark purple background
         btnNewButton.setBounds(408, 341, 133, 40);
         frame.getContentPane().add(btnNewButton);
     }   
